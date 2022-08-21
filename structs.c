@@ -6,10 +6,15 @@ typedef struct {
     int y;
 } point;
 
-typedef struct {
-    char * name;
-    int modle;
-} vehicle;
+// typedef struct {
+//     char * name;
+//     int modle;
+// } vehicle;
+
+void move(point * p) {
+    p->x++;
+    p->y++; 
+}
 
 int main() {
 
@@ -20,8 +25,8 @@ int main() {
 
     // draw(p);
 
-    vehicle myCar;
-    myCar.modle = 2020;
-    myCar.name = "BMW";
+    // vehicle myCar;
+    // myCar.modle = 2020;
+    // myCar.name = "BMW";
     
 }
