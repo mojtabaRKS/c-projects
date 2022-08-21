@@ -14,6 +14,12 @@ unsigned int multiply(unsigned int x, unsigned int y) {
     return 0;
 }
 
+unsigned int factorial(unsigned int x) {
+    if 
+
+    return x;
+}
+
 int main() {
 
     printf("3 times 5 is : %d", multiply(3, 5));
