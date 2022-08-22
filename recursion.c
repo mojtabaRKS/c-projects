@@ -15,9 +15,11 @@ unsigned int multiply(unsigned int x, unsigned int y) {
 }
 
 unsigned int factorial(unsigned int x) {
-    if 
-
-    return x;
+    if (x > 1) {
+        return x * factorial(x - 1);
+    } else {
+        return 1;
+    }
 }
 
 int main() {
